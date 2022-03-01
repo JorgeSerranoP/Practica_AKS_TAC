@@ -8,7 +8,7 @@ public class H1P1 {
 	static boolean n_pp = false;
 	static BigInteger factor;
 	static double logSave = -1;
-	static BigInteger n = new BigInteger("1");
+	static BigInteger n = new BigInteger("4");
 
 	public static double log() {
 
