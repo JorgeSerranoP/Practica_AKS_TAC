@@ -1,7 +1,6 @@
 package tst;
 
 import java.math.BigInteger;
-import java.util.Arrays;
 
 public class H1P3 {
 
