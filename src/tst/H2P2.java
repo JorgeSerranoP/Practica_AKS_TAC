@@ -37,8 +37,8 @@ public class H2P2 {
 
 			}
 
-			System.out.println(n);
 			System.out.println(x);
+			System.out.println(n);
 
 			for (int k = 0; k < 10; k++) {
 				System.out.println(array_result[k]);
