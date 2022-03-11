@@ -102,7 +102,7 @@ public class H2P1 {
     public static boolean calculateTotient() {
 
         // For i = 1 to sqrt(totient)log(n) do
-        // if (X+i)^n <>�X^n + i (mod X^r - 1,n), output composite;
+        // if (X+i)^n <> X^n + i (mod X^r - 1,n), output composite;
 
         // sqrt(totient)log(n)
         int limit = (int) (Math.sqrt(totient(r).doubleValue()) * log());
@@ -162,9 +162,8 @@ public class H2P1 {
 
             for (int j = 0; j < 10; j++) {
 
-                r  = calculateR();
                 long start = System.currentTimeMillis();
-                calculateTotient();
+                totient(n);
                 long end = System.currentTimeMillis();
                 long result = end - start;
                 array_result[j] = result;
